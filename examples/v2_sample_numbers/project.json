@@ -1,0 +1,16 @@
+{
+  "tts": {
+    "model": "gemini-3.8-flash-tts",
+    "voice": "Bodi",
+    "style": "",
+    "unit": "sentence",
+    "gap": 0.28,
+    "para_gap": 0.65,
+    "max_sub_chars": 30
+  },
+  "style": {
+    "grain": 0,
+    "vignette": false,
+    "flicker": 0
+  }
+}

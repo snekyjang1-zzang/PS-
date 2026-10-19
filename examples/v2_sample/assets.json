@@ -1,0 +1,11 @@
+{
+  "style": "vintage hand-drawn ink illustration on aged parchment paper, sepia and muted earth tones, fine cross-hatching, antique encyclopedia engraving look",
+  "quality": "medium",
+  "assets": [
+    {"id": "bg_usmap", "kind": "background", "prompt": "antique map of the United States of America filling the frame, state border lines visible, Pacific Ocean on the left, parchment texture"},
+    {"id": "bg_usmap_red", "kind": "background", "edit_of": "bg_usmap", "prompt": "Only change: the state of Oregon in the upper left (Pacific Northwest) is filled with a deep crimson red watercolor stain"},
+    {"id": "c_man", "kind": "cutout", "prompt": "generic middle-aged American working man in a plaid shirt and jeans, standing, full body, neutral worried expression"},
+    {"id": "c_man_sick", "kind": "cutout", "refs": ["c_man"], "prompt": "same character, same clothes, now looking ill and feverish, holding his bandaged right hand, slightly hunched, full body"},
+    {"id": "c_cat", "kind": "cutout", "prompt": "scruffy stray tabby cat, side view, wary posture, full body"}
+  ]
+}

@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+projects/*/out/
+projects/*/assets/_raw/
+projects/*/input/_tts/
+projects/*/captures/_profile/
+projects/*/captures/_frames_*/
+
+API키*.txt
+*키*.txt
+projects/*/input/_listen/
+projects/*/input/_mix/

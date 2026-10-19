@@ -1,0 +1,43 @@
+{
+ "style": "여기에 마스코트의 화풍을 영어 한 문장으로 (채널 프로필의 화풍·참고 이미지에 맞춘다. 예: 2D flat editorial illustration, bold black outline, muted palette)",
+ "quality": "medium",
+ "assets": [
+  {
+   "id": "cand_a",
+   "kind": "cutout",
+   "size": {
+    "width": 1024,
+    "height": 1536
+   },
+   "prompt": "후보 A: 담당자가 말한 캐릭터를 영어로 구체적으로 — 종류, 옷, 소품, 성격, full body, standing, front three-quarter view"
+  },
+  {
+   "id": "cand_b",
+   "kind": "cutout",
+   "size": {
+    "width": 1024,
+    "height": 1536
+   },
+   "prompt": "후보 B: 방향을 다르게"
+  },
+  {
+   "id": "cand_c",
+   "kind": "cutout",
+   "size": {
+    "width": 1024,
+    "height": 1536
+   },
+   "prompt": "후보 C: 방향을 다르게"
+  }
+ ],
+ "_다음_단계": "담당자가 후보를 고르면 아래 포즈들을 assets 에 추가한다. 모두 refs 에 고른 후보 id 를 넣어 같은 캐릭터로 유지한다.",
+ "_포즈_프롬프트": {
+  "point": "the same character from the reference image, same outfit and drawing style, waist-up, three-quarter view facing left, one arm raised and pointing firmly to the left",
+  "shrug": "…, both arms raised to the sides in a big shrug, unimpressed",
+  "shock": "…, startled, mouth open, leaning back slightly",
+  "think": "…, pondering, one hand under the chin, looking up",
+  "peek": "…, skeptical, leaning forward and peering closely with a doubtful look",
+  "facepalm": "…, exasperated, one hand covering the forehead",
+  "ew": "…, creeped out, leaning away with one hand raised defensively"
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "sfx": {
+  "tick": {"text": "one very soft dry wooden tick, single click, quiet", "sec": 0.5},
+  "low": {"text": "one deep soft cinematic low boom hit, dark and muffled, short tail", "sec": 1.6},
+  "scratch": {"text": "one short pen scratch stroke on rough paper", "sec": 0.5},
+  "thud": {"text": "one soft dull thud of a small object put down on a wooden table", "sec": 0.5},
+  "whoosh": {"text": "one slow soft airy whoosh, transition sound", "sec": 0.8}
+ },
+ "music": {
+  "main": {"prompt": "Instrumental only, absolutely no vocals. <이 영상의 분위기를 영어로: 악기, 빠르기(bpm), 감정>. Steady with no big build-ups or hits, unobtrusive background under narration, seamless loop", "sec": 150}
+ },
+ "bgm": [
+  {"track": "main", "from": 0, "to": null, "gain_db": -21, "fade_in": 1.5, "fade_out": 3.5}
+ ],
+ "default_sfx_gain_db": -13,
+ "sfx_gain_db": {"tick": -15, "low": -11, "scratch": -15, "thud": -14, "whoosh": -16}
+}

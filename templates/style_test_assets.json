@@ -1,0 +1,14 @@
+{
+ "style": "<화풍을 영어 한두 문장으로: 선(굵기·색), 색감, 명암 방식, 질감, 인물을 그리는 방식. 예: flat 2D cartoon illustration, thick slightly uneven black ink outlines, flat muted earthy colors with fine grainy hatching texture, simple cel shading>",
+ "quality": "medium",
+ "assets": [
+  {"id": "ref_1", "kind": "ref", "file": "brand/style_refs/<담당자가 준 참고 이미지 파일명>"},
+  {"id": "style_char", "kind": "cutout", "size": {"width": 1024, "height": 1536}, "refs": ["ref_1"],
+   "prompt": "<이 영상에 나올 대표 인물 한 명. 전신, 정면, 가만히 선 자세. 참고 이미지의 구도·인물·소품은 따라 그리지 않고 그리는 방식만 따른다>"},
+  {"id": "style_bg", "kind": "background", "refs": ["ref_1"],
+   "style": "<위 화풍 문장> Absolutely no people, no characters, no faces",
+   "prompt": "<이 영상에 나올 대표 장소 한 곳. 사람 없이 빈 배경>"},
+  {"id": "style_prop", "kind": "cutout", "refs": ["ref_1"],
+   "prompt": "<이 영상에 나올 대표 소품 한 개>"}
+ ]
+}

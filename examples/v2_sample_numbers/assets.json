@@ -1,0 +1,13 @@
+{
+  "style": "modern flat vector illustration with bold dark navy outlines, warm palette of orange, apple red, leaf green and cream, simple rounded shapes, soft flat shading, friendly explainer video style",
+  "quality": "medium",
+  "assets": [
+    {"id": "c_sort", "kind": "cutout", "prompt": "a farm worker wearing a cap and apron sorting red apples by hand on a sorting table, upper body, focused expression"},
+    {"id": "c_pack", "kind": "cutout", "prompt": "an open cardboard fruit box neatly filled with shiny red apples, three-quarter top view"},
+    {"id": "c_ship", "kind": "cutout", "prompt": "a small delivery truck with two taped cardboard parcel boxes stacked beside it, side view"},
+    {"id": "c_house", "kind": "cutout", "prompt": "a rural fruit packing house building, wide warehouse with an open loading dock, wooden crates full of red apples stacked in front, front view"},
+    {"id": "c_box", "kind": "cutout", "prompt": "a single closed taped cardboard shipping box with a simple red apple icon printed on its side, three-quarter view"},
+    {"id": "c_owner", "kind": "cutout", "size": {"width": 1024, "height": 1536}, "prompt": "a tired middle-aged fruit packing house worker wearing a work vest, cap and gloves, wiping sweat from the forehead with one arm, standing, full body"},
+    {"id": "c_seller", "kind": "cutout", "prompt": "a relaxed young online seller leaning back in a chair at a small desk with an open laptop, satisfied smile, casual hoodie, full body including desk and chair"}
+  ]
+}

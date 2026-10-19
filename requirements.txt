@@ -1,0 +1,7 @@
+# 검증한 조합: Python 3.12 · numpy 2.5 · opencv 5.0 · pillow 12.3 · scipy 1.18
+numpy>=2.0,<3
+opencv-python-headless>=4.10,<6
+pillow>=10.4,<13
+scipy>=1.13,<2
+imageio-ffmpeg>=0.5
+playwright>=1.45
